@@ -14,7 +14,7 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- workshop
+- conference
 links:
 - icon: door-open
   icon_pack: fas
