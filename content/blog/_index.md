@@ -21,7 +21,7 @@ sidebar:
   show_sidebar_adunit: true
   text_link_label: 
   text_link_url: /index.xml
-  title: A Sidebar for Your Thoughts
+  title: Latest Publications 
 thumbnail_left: true
 title: Publications
 ---
