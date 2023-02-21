@@ -1,5 +1,5 @@
 ---
-title: "A campfire"
+title: "Considerations in Digitally-based Assessment Environment to Monitor Examinee’s Engagement and Learning Behaviours"
 subtitle: "Testing"
 excerpt: "We combined multiple advanced computational methods, including social network analysis and deep neural networks models. Our framework also models the examinee’s task-engagement status for a more accurate representation of the performance and skill demonstration in the series of interactive tasks."
 date: 2021-01-12
