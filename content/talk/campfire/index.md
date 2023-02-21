@@ -1,20 +1,20 @@
 ---
-title: "Considerations in Digitally-based Assessment Environment to Monitor Examinee’s Engagement and Learning Behaviours"
-subtitle: "Current Issues and Solutions to Educational Testing"
-excerpt: "An increasing number of recent large-scale assessments, such as the Programme for International Assessment of Adult Competencies (PIAAC), have introduced more innovative test solutions with novel item formats to access problem-solving or collaborative problem-solving skills (e.g., Mullis et al. 2021). The process log data provides insights into the examinee’s behavior that are not easily disambiguated with the response data. The process log information uncovers more individualized and diagnostic evidence about the examinees’ latent abilities which enhances the reliability and validity evidence (Kroehne & Goldhammer, 2018) and identifies the examinees who are depicting anomalous behaviors (Lundgren & Eklöf, 2020). We combined multiple advanced computational methods, including social network analysis and deep neural networks models. Our framework also models the examinee’s task-engagement status for a more accurate representation of the performance and skill demonstration in the series of interactive tasks."
-date: "2023-06-11"
-date_end: "2023-06-11"
+title: "A campfire"
+subtitle: "Testing"
+excerpt: "Here is a talk I gave on making awesome personal websites using Hugo, blogdown, GitHub, and Netlify."
+date: 2021-01-12
+date_end: "2021-01-13"
 featured: true
 show_post_time: false
-event: "CSSE-CERA"
-event_url: https://csse-scee.ca/conference-2023
-author: "Jinnie Shin"
-location: "Toronto, Ontario, Canada"
+event: "rstudio::global(2021)"
+event_url: https://global.rstudio.com
+author: "Alison Hill"
+location: "Sydney, Australia"
 draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- conference
+- workshop
 links:
 - icon: door-open
   icon_pack: fas
