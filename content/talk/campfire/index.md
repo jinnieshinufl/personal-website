@@ -15,6 +15,4 @@ location: Toronto, Canada
 show_post_time: false
 subtitle: Current Issues and Solutions to Educational Testing
 title: Considerations in Digitally-based Assessment Environment to Monitor Examinee’s Engagement and Learning Behaviours  
----
-
-I'm really excited to give this talk! Stay tuned for video and slides.
+--- 
