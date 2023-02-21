@@ -1,7 +1,7 @@
 ---
 title: "A campfire"
 subtitle: "Testing"
-excerpt: "Here is a talk I gave on making awesome personal websites using Hugo, blogdown, GitHub, and Netlify."
+excerpt: "We combined multiple advanced computational methods, including social network analysis and deep neural networks models. Our framework also models the examinee’s task-engagement status for a more accurate representation of the performance and skill demonstration in the series of interactive tasks."
 date: 2021-01-12
 date_end: "2021-01-13"
 featured: true
