@@ -1,39 +1,57 @@
 ---
-author: 
+author: Eric Anderson
 categories:
-date: "2022-02-20"
+- Theme Features
+date: "2019-07-02"
 draft: false
-excerpt: 
-subtitle: A list of peer-reviewed journal publications and conference proceedings
-title: 2021-22 Publication List 
+excerpt: Grid is the very first CSS module created specifically to solve the layout
+  problems we’ve all been hacking our way around for as long as we’ve been making
+  websites.
+layout: single-sidebar
+subtitle: ""
+tags:
+- hugo-site
+title: CSS Grid Scaffold
 ---
 
-### Book chapters
+### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
 
-[1] **Shin, J.**  & Gierl, M. J. (2022). A Technology-Enhanced Approach for Locating Timely and Relevant News Articles for Context-based Science Education. In A. Alavi (Ed.), Artificial Intelligence in STEM Education: The Paradigmatic Shifts in Research, Education, and Technology. Taylor & Francis. Link
+*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
 
-[2] Gierl, M. J., **Shin, J.**, & Firoozi, T. (2022). Automatic Item Generation. In R. Tierney, F. Rizvi, K. Erickan, & G. Smith (Eds.), International Encyclopedia of Education (4th Ed.). New York: Elsevier.
-
-### Peer-reviewed Journal 
-
-[3] Gierl, M. J., **Shin, J.**, Firoozi, T., & Lai, H. (2022). Using Content Coding and Automatic Item Generation to Improve Test Security. Frontiers in Education, section Assessment, Testing and Applied Measurement 
-
-[4] **Shin, J.**, Chen, F., Lu, C. & Bulut, O. (2021). Using time-series prediction to inform test administration decisions in computerized formative assessment. Journal of Computers in Education. DOI: 10.1007/s40692-021-00196-7
-
-[5] **Shin, J.**, & Bulut, O. (2021). Building an intelligent recommendation system for personalized test scheduling: A reinforcement learning approach. Behavior Research Methods. DOI: 10.3758/s13428-021-01602-9l Journal of Testing. https://doi.org/10.1080/15305058.2022.2070755
-
-### Peer-reviewed Conference Proceedings
-
-[6] Rahimi, S., Walker, J., T., Lin, L., &**Shin, J.** (2022). In Pursuit of Creativity in Minecraft: A Mixed-Method Approach. In Proceedings of International Conference of the Learning Sciences 2022 
-
-[7] Banawan, M., **Shin, J.**, Balyan, R., Leite, W. L., & McNamara, D. S. (2022). Mathematics Discussion Board Discourse Analysis. Math Discourse Linguistic Components (Cohesive Cues within a Math Discussion Board Discourse). In proceedings of the Ninth ACM Conference on Learning @ Scale (L@S `22). Association for Computing Machinery, New York, NY, USA, 389-394 https://doi.org/10.1145/3491140.3528320 
-
-[8] **Shin, J.**, Balyan, R., Banawan, M., Leite, W. L., & McNamara, D. S (2021). Pedagogical Communication Language in Video Lectures: Empirical Findings from Algebra Nation. In Proceedings of International Conference of the Learning Sciences 2021 (p.323-329)
-
-[9] Banawan, M., Balyan, R., **Shin, J.**, Leite, W. L., & McNamara, D. S (2021). Linguistic Features of Discourse within an Algebra Online Discussion Board Authors. In Proceedings of Educational Data Mining Conference 2021.
-
-```yaml
 ---
-Code are available at https://github.com/jinnieshinufl
+
+## Overview
+
+Since I began building websites in Y2K, I've lost count how many times the phrase "...there's got to be a better way to do this" has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid `TABLE`.
+
+Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You'd be surprised (or maybe you wouldn't) how challenging the standard header, content, sidebar, footer layout could be to actually get right.
+
+{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
+
 ---
+
+### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+
+A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
+
+> ##### CSS Grid Layout Module
+>
+> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
+>
+> — _W3C_
+
+## A happy ending
+
+CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
 ```
+
+#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
+
+[^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)

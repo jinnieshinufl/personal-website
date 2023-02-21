@@ -1,19 +1,66 @@
 ---
-author: Jinnie Shin 
+author: Eric Anderson
 categories:
-date: "2022-07-31"
+- Theme Features
+- R
+- package
+date: "2019-07-01"
 draft: false
-excerpt: 
+excerpt: This theme has a form-to-email feature built in, thanks to the simple Formspree
+  integration. All you need to activate the form is a valid recipient email address
+  saved in the form front matter.
+layout: single
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: https://bakeoff.netlify.com/
+- icon: github
+  icon_pack: fab
+  name: code
+  url: https://github.com/apreshill/bakeoff
+subtitle: An R Package
 tags:
 - hugo-site
-title: Precision Education - Virtual Learning Lab 
+title: Bakeoff
 ---
 
-#### Role: Key Personnel 
-#### Team: [Link](https://virtuallearninglab.org/about-us/)
-##### Funding Agency: IES 
-##### Website: https://virtuallearninglab.org/about-us/
-This project is a united effort by multiple academic organizations that seeks to explore the potential for precision education to revolutionize teaching and learning.  The team approaches programming for online educational environments in new and innovative ways, with the ultimate goal of improving achievement for all students. 
-The research reported here was supported by the Institute of Education Sciences, U.S. Department of Education, through Grant R305C160004 to the University of Florida. The opinions expressed are those of the authors and do not represent views of the Institute or the U.S. Department of Education.
+![Formspree Logo](formspree-logo.png)
 
-### Publications: [Link](https://virtuallearninglab.org/research/) 
+## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
+
+---
+
+### Functional Form
+
+This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
+(`/content/forms/contact.md`). Of course, the example shown below (`your@email.here`) must not be used. Please use your actual email address.
+
+```toml
+# please replace with a valid Formspree form id or email address
+formspree_form_id: your@email.here
+```
+
+Update that file and you're ready to begin receiving submissions. Just submit
+the active form for the first time, and complete the email address verification
+step with Formspree, and your contact form is live. The next time someone
+fills it out, the submission will land in your inbox.
+
+### Multiple Layouts
+
+The files included with the theme have a contact page ready for copy/paste, or
+you can type `hugo new forms/contact.md` and you're off to the races. There are two
+layouts for `forms` – `split-right`, and `split-left` – you guessed it, one puts
+the form on the right and the other on the left. You just fill out the front
+matter, and the rest is automatic.
+
+```toml
+# layout options: split-right or split-left
+layout: split-right
+```
+
+![Contact Form Split Right Layout Screenshot](built-in-contact-form-screenshot.png)
+
+Both layouts display the page title and description opposite the form, and you
+can also choose to show your social icon links if you have those configured in
+the `config.toml` file.

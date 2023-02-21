@@ -8,7 +8,7 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Current and Previous Projects that involves cutting-edge approaches in Natural Language Processing in Education Research and Computational Psychometrics 
+description: Give your projects a place to live online.
 layout: list-grid
 show_author_byline: true
 show_button_links: false

@@ -1,26 +1,55 @@
 ---
-author: 
+author: Eric Anderson
 categories:
-date: "2020-02-20"
+- Theme Features
+date: "2019-07-01"
 draft: false
-excerpt: 
-subtitle: A list of peer-reviewed journal publications and conference proceedings
-title: 2019-20 Publication List
+excerpt: This theme has a form-to-email feature built in, thanks to the simple Formspree
+  integration. All you need to activate the form is a valid recipient email address
+  saved in the form front matter.
+layout: single
+subtitle: Form to email feature powered by Formspree
+tags:
+- hugo-site
+title: Built-in Contact Form
 ---
 
-### Peer-reviewed Journal 
+![Formspree Logo](formspree-logo.png)
 
-[1] **Shin, J.**, Bulut, O. & Gierl, M. J. (2019). The Effect of Best distractor location on the difficulty of multiple-choice items. Journal of Experimental Education. DOI: 10.1080/00220973.2019.1629577
+## [Formspree](https://formspree.io) makes it easy to receive submissions from HTML forms on your static website.
 
-[2] **Shin, J.**, Guo, Q. & Gierl, M. J. (2019). Multiple-Choice Item Distractor Development using Topic Modelling Approaches. Frontiers in Psychology, 10:825. DOI: 10.3389/fpsyg.2019.00825
-
-### Technical Report
-
-[3] Gierl, M. J. & **Shin, J.** (2020). Using Automated Procedures to Machine Score Essays. Written in the New Zealand NCEA Examination Content Areas of English and History. Wellington, NZ: New Zealand Qualification Authority
-
-
-```yaml
 ---
-Code are available at https://github.com/jinnieshinufl
----
+
+### Functional Form
+
+This theme has a **form-to-email** feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form
+(`/content/forms/contact.md`). Of course, the example shown below (`your@email.here`) must not be used. Please use your actual email address.
+
+```toml
+# please replace with a valid Formspree form id or email address
+formspree_form_id: your@email.here
 ```
+
+Update that file and you're ready to begin receiving submissions. Just submit
+the active form for the first time, and complete the email address verification
+step with Formspree, and your contact form is live. The next time someone
+fills it out, the submission will land in your inbox.
+
+### Multiple Layouts
+
+The files included with the theme have a contact page ready for copy/paste, or
+you can type `hugo new forms/contact.md` and you're off to the races. There are two
+layouts for `forms` – `split-right`, and `split-left` – you guessed it, one puts
+the form on the right and the other on the left. You just fill out the front
+matter, and the rest is automatic.
+
+```toml
+# layout options: split-right or split-left
+layout: split-right
+```
+
+![Contact Form Split Right Layout Screenshot](built-in-contact-form-screenshot.png)
+
+Both layouts display the page title and description opposite the form, and you
+can also choose to show your social icon links if you have those configured in
+the `config.toml` file.
