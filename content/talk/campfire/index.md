@@ -2,14 +2,14 @@
 title: "Considerations in Digitally-based Assessment Environment to Monitor Examinee’s Engagement and Learning Behaviours"
 subtitle: "Current Issues and Solutions to Educational Testing"
 excerpt: "We combined multiple advanced computational methods, including social network analysis and deep neural networks models. Our framework also models the examinee’s task-engagement status for a more accurate representation of the performance and skill demonstration in the series of interactive tasks."
-date: 2023-06-11
-date_end: "2023-06-16"
+date: 2021-06-11
+date_end: "2021-06-16"
 featured: true
 show_post_time: false
 event: "rstudio::global(2021)"
 event_url: https://global.rstudio.com
-author: "Alison Hill"
-location: "Sydney, Australia"
+author: "Jinnie Shin"
+location: "Toronto, ON, Canada"
 draft: false
 # layout options: single, single-sidebar
 layout: single
