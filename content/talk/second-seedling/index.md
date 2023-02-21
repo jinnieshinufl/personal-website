@@ -8,7 +8,7 @@ featured: true
 show_post_time: false
 event: "AERA 2023"
 event_url: https://csse-scee.ca/conference-2023
-author: "Jinnie Shin"
+author: "Jinnie Shin and Mark J. Gierl"
 location: "Chicago, IL"
 draft: false
 # layout options: single, single-sidebar
