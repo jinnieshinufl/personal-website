@@ -1,7 +1,7 @@
 ---
-author: The R Markdown Team @RStudio
+author: Jinnie Shin
 cascade:
-  show_author_byline: true
+  show_author_byline: false
   show_comments: false
   show_post_date: true
   sidebar:
