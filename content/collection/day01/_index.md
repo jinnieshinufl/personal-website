@@ -2,6 +2,7 @@
 author: Jinnie Shin 
 date: 
 description: |
+"His research interests include enhancing item response theory in educational testing, applying machine learning and artificial intelligence methods to psychometric research."
 excerpt: null
 layout: single-series
 publishDate: 
