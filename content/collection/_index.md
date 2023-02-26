@@ -22,6 +22,6 @@ show_author_byline: false
 show_post_date: false
 show_post_thumbnail: true
 subtitle: A collection, minus the blog.
-thumbnail_left: false
+thumbnail_left: true 
 title: Create a Collection
 ---
