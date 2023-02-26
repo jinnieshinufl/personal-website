@@ -3,10 +3,10 @@ author: Jinnie Shin
 date: 
 description: |
 "His research interests include enhancing item response theory in educational testing, applying machine learning and artificial intelligence methods to psychometric research."
-excerpt: null
+excerpt: true 
 layout: single-series
 publishDate: 
-show_author_byline: false
+show_author_byline: true
 show_post_date: false
 show_post_thumbnail: true 
 subtitle: Research Volunteer, Ph.D. student in REM

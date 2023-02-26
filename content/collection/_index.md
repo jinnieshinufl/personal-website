@@ -4,9 +4,7 @@ cascade:
   layout: single-series
   sidebar:
     author: Alison Hill
-    description: "Sometimes you want a souped-up series- a bundle of related pages
-      \nmeant to be read in sequence. This section is like a blog series, \nminus
-      the blog.\n"
+    description: ""
     show_author_byline: false
     show_post_date: false
     show_sidebar_adunit: false
@@ -14,13 +12,13 @@ cascade:
     text_link_label: ""
     text_link_url: ""
     text_series_label: Outline
-    title: Create a Collection
+    title: Research Team 
 description: ""
 layout: list-grid
 show_author_byline: false
 show_post_date: false
 show_post_thumbnail: true
-subtitle: A collection, minus the blog.
+subtitle: 
 thumbnail_left: true 
 title: Research Team 
 ---
