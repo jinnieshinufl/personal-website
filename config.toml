@@ -118,6 +118,11 @@ enableEmoji = true
     title = "About Blogophonic"
     url = "/about/"
     weight = 1
+  [[menu.header]]
+    name = "Team"
+    title = "Team"
+    url = "/collection/"
+    weight = 2
 
   [[menu.header]]
     name = "Projects"
