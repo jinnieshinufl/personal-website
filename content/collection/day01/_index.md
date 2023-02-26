@@ -8,7 +8,7 @@ layout: single-series
 publishDate: "2021-01-22"
 show_author_byline: false
 show_post_date: false
-show_post_thumbnail: true
+show_post_thumbnail: false
 subtitle: All about Day 01 of 'Introduce Yourself Online'.
 title: Day 01
 weight: 2
