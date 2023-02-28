@@ -9,7 +9,7 @@ show_author_byline: true
 show_post_date: false
 show_post_thumbnail: true 
 subtitle: 
-title: Pauline, Ph.D. student 
+title: Pauline Aguinalde, Ph.D. student 
 weight: 1
 ---
 
