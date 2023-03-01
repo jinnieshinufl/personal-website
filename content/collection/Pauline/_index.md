@@ -9,8 +9,13 @@ show_author_byline: true
 show_post_date: false
 show_post_thumbnail: true 
 subtitle: 
+<<<<<<< HEAD
 title: Pauline, Ph.D. student 
-weight: 2
+weight: 1
+=======
+title: Pauline Aguinalde, Ph.D. student 
+weight: 1
+>>>>>>> 135a711d45c8f3f6da6233d28f570b7576dd805f
 ---
 
 ![img](featured.jpg)
