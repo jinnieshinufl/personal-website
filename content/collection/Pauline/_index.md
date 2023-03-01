@@ -10,7 +10,7 @@ show_post_date: false
 show_post_thumbnail: true 
 subtitle: 
 title: Pauline, Ph.D. student 
-weight: 1
+weight: 2
 ---
 
 ![img](featured.jpg)
