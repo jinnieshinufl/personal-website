@@ -10,7 +10,7 @@ show_post_date: false
 show_post_thumbnail: true 
 subtitle: Research Volunteer, Ph.D. student in REM
 title: Bowen Wang, Research Volunteer 
-weight: 1
+weight: 3
 ---
 
 ![img](featured.jpg)
