@@ -8,9 +8,8 @@ publishDate:
 show_author_byline: true
 show_post_date: false
 show_post_thumbnail: true 
-subtitle: 
-<<<<<<< HEAD
-title: Pauline, Ph.D. student 
+subtitle: Ph.D. student in REM
+title: Pauline, Ph.D. student
 weight: 1
 =======
 title: Pauline Aguinalde, Ph.D. student 

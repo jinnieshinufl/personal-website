@@ -9,7 +9,7 @@ show_author_byline: true
 show_post_date: false
 show_post_thumbnail: true 
 subtitle: Ph.D. student in REM
-title: Wallace N. Pinto Junior, Research Volunteer 
+title: Wallace N. Pinto Junior, Ph.D. student
 weight: 1
 ---
 
