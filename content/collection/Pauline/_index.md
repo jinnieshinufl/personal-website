@@ -11,10 +11,6 @@ show_post_thumbnail: true
 subtitle: Ph.D. student in REM
 title: Pauline, Ph.D. student
 weight: 1
-=======
-title: Pauline Aguinalde, Ph.D. student 
-weight: 1
->>>>>>> 135a711d45c8f3f6da6233d28f570b7576dd805f
 ---
 
 ![img](featured.jpg)
