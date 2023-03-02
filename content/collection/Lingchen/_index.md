@@ -9,7 +9,7 @@ show_author_byline: true
 show_post_date: false
 show_post_thumbnail: true 
 subtitle: Ph.D. student in REM
-title: Lingchen, Ph.D. student
+title: Lingchen Kong, Ph.D. student
 weight: 2
 ---
 
